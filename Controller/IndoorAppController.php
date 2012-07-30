@@ -2,7 +2,7 @@
 
 App::uses('AppController', 'Controller');
 
-class AdminAppController extends AppController {
+class IndoorAppController extends AppController {
 
     public $components = array('Auth', 'Session', 'DebugKit.Toolbar');
     public $helpers = array('Html', 'Form', 'Session', 'ThumbnailsPlugin.Thumbnail', 'Time', 'Js', 'Html');
@@ -13,6 +13,5 @@ class AdminAppController extends AppController {
         $this->Auth->logoutRedirect = array('controller' => 'users', 'action' => 'login', 'plugin' => 'indoor');
         $this->Auth->loginRedirect = array('controller' => 'users', 'action' => 'add', 'plugin' => 'indoor');
     }
-
 }
 

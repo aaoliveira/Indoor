@@ -1,6 +1,6 @@
 <?php
 
-class AdminAppModel extends AppModel {
+class IndoorAppModel extends AppModel {
 
 }
 
