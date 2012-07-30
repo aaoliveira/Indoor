@@ -1,6 +1,6 @@
 <?php
 
-class Post extends AdminAppModel {
+class Post extends IndoorAppModel {
 
     public $actsAs = array(
         'MeioUpload.MeioUpload' => array(

@@ -1,6 +1,6 @@
 <?php
 
-class User extends AdminAppModel {
+class User extends IndoorAppModel {
 
     public $validate = array(
         'name' => array(

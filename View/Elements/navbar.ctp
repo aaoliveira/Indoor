@@ -1,10 +1,10 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <?php echo $this->Html->link(__('Linux Ap'), '/admin', array('class' => 'brand')); ?>
+            <?php echo $this->Html->link(__('Linux Ap'), '/indoor', array('class' => 'brand')); ?>
             <ul class="nav">
                 <li>
-                    <?php echo $this->Html->link(__('Dashboard'), '/admin'); ?>
+                    <?php echo $this->Html->link(__('Dashboard'), '/indoor'); ?>
                 </li>
                 <li>
                     <?php echo $this->Html->link(__('Posts'), array('controller' => 'posts', 'action' => 'index')); ?>

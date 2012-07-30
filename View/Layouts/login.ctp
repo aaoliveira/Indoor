@@ -3,7 +3,7 @@
     <head>
         <?php
         echo $this->Html->meta('icon');
-        echo $this->Html->css('/admin/css/global');
+        echo $this->Html->css('/indoor/css/global');
         echo $this->Html->charset();
         echo $this->Html->meta('icon');
         echo $this->fetch('meta');
@@ -15,9 +15,9 @@
     <body>
         <?php
         echo $this->fetch('content');
-        echo $this->Html->script('/admin/js/jquery-1.7.2.min');
-        echo $this->Html->script('/admin/js/bootstrap.min');
-        echo $this->Html->script('/admin/js/admin.min');
+        echo $this->Html->script('/indoor/js/jquery-1.7.2.min');
+        echo $this->Html->script('/indoor/js/bootstrap.min');
+        echo $this->Html->script('/indoor/js/admin.min');
         ?>
     </body>
 </html>

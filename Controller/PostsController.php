@@ -1,6 +1,6 @@
 <?php
 
-class PostsController extends AdminAppController {
+class PostsController extends IndoorAppController {
     
     
     public function index() {

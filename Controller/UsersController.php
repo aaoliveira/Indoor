@@ -1,6 +1,6 @@
 <?php
 
-class UsersController extends AdminAppController {
+class UsersController extends IndoorAppController {
 
     var $paginate = array(
         'limit' => 10,

@@ -9,9 +9,9 @@ class AdminAppController extends AppController {
 
     function beforeFilter() {
         $this->Auth->authenticate = array('Form' => array('fields' => array('username' => 'email')));
-        $this->Auth->loginAction = array('controller' => 'users', 'action' => 'login', 'plugin' => 'admin');
-        $this->Auth->logoutRedirect = array('controller' => 'users', 'action' => 'login', 'plugin' => 'admin');
-        $this->Auth->loginRedirect = array('controller' => 'users', 'action' => 'add', 'plugin' => 'admin');
+        $this->Auth->loginAction = array('controller' => 'users', 'action' => 'login', 'plugin' => 'indoor');
+        $this->Auth->logoutRedirect = array('controller' => 'users', 'action' => 'login', 'plugin' => 'indoor');
+        $this->Auth->loginRedirect = array('controller' => 'users', 'action' => 'add', 'plugin' => 'indoor');
     }
 
 }

@@ -1,6 +1,6 @@
 <?php
 
-class PagesController extends AdminAppController {
+class PagesController extends IndoorAppController {
     
     function index() {
         

@@ -9,10 +9,10 @@
         echo $this->fetch('meta');
         echo $this->fetch('css');
         echo $this->fetch('script');
-        echo $this->Html->css('/admin/css/global');
-        echo $this->Html->script('/admin/js/jquery-1.7.2.min');
-        echo $this->Html->script('/admin/js/bootstrap.min');
-        echo $this->Html->script('/admin/js/admin.min');
+        echo $this->Html->css('/indoor/css/global');
+        echo $this->Html->script('/indoor/js/jquery-1.7.2.min');
+        echo $this->Html->script('/indoor/js/bootstrap.min');
+        echo $this->Html->script('/indoor/js/admin.min');
         ?>
     </head>
     <body>
