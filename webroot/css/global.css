@@ -1,0 +1,31 @@
+@import url(bootstrap.min.css);
+@import url(admin.min.css);
+
+.form-error {
+    color: #b94a48;
+    border-color: #b94a48;
+}
+
+div.error-message {
+    color: #b94a48;
+}
+
+.form-error:focus {
+    border-color: #953b39;
+    -webkit-box-shadow: 0 0 6px #d59392;
+    -moz-box-shadow: 0 0 6px #d59392;
+    box-shadow: 0 0 6px #d59392;
+}
+
+.pagination .current, .pagination .disabled {
+    background-color: #f5f5f5;float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-left-width: 0;
+}
+
+.pagination .prev a, .pagination .prev {
+    border-left: 1px solid #ddd;
+}
