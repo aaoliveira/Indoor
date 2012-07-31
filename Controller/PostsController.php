@@ -1,8 +1,12 @@
 <?php
 
 class PostsController extends IndoorAppController {
-    
-    
+
+    public $paginate = array(
+        'limit' => 10,
+        'order' => array('Post.created' => 'desc')
+    );
+
     public function index() {
         $this->set('title_for_layout', 'LinuxAp - ' . __('All Posts'));
         $this->Post->recursive = 0;

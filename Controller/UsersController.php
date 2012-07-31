@@ -2,7 +2,7 @@
 
 class UsersController extends IndoorAppController {
 
-    var $paginate = array(
+    public $paginate = array(
         'limit' => 10,
         'order' => array(
             'User.email' => 'asc'
