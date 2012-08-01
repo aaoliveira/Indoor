@@ -1,4 +1,4 @@
-<?php echo $this->Html->script('/admin/ckeditor/ckeditor'); ?>
+<?php echo $this->Html->script('/indoor/ckeditor/ckeditor'); ?>
 <div class="container top">
     <div class="page-header">
         <h2>
